@@ -5,15 +5,28 @@ r = ord("D");
 u = ord("W");
 d = ord("S");
 
-m_l = mouse_check_button(mb_left);
-m_r = mouse_check_button(mb_right);
+var i = 0;
+qb[i++] = ord("1");
+qb[i++] = ord("2");
+qb[i++] = ord("3");
+qb[i++] = ord("4");
+qb[i++] = ord("5");
+qb[i++] = ord("6");
+qb[i++] = ord("7");
+qb[i++] = ord("8");
+qb[i++] = ord("9");
+qb[i++] = ord("0");
+qb[i++] = 189;    // -
+qb[i++] = 187;    // = 12 things max?
 
-left = false;
-right = false;
-up = false;
-down = false;
+quickbar[--i] = 0;
 
-mouse_left = false;
-mouse_left_pressed = false;
-mouse_right = false;
-mouse_right_pressed = false;
+t = vk_tab;
+re = ord("R");
+bs = vk_backspace;
+s = vk_shift;
+
+m_l = mb_left;
+m_r = mb_right;
+
+get_input();

@@ -8,4 +8,4 @@ target[? "y"] = 0;
 screenshake = 0;
 
 // Speed
-spd = .5;
+spd = .25;
