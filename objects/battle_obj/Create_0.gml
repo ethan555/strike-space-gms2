@@ -16,6 +16,8 @@ if (instance_exists(view_obj)) {
     view_obj.state = view_cursor_state;
 }
 
+zoom = 1;
+
 /*
     -1 : beginning fight
     0 : player

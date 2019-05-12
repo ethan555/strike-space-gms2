@@ -39,6 +39,14 @@
             }
         },
         {
+            "Key": "07d2a630-0b27-4986-87b5-df93668315bb",
+            "Value": {
+                "id": "b40d413d-cb10-483b-98ab-8d8f802a0d05",
+                "resourcePath": "sprites\\rifle_sp\\rifle_sp.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "0cd8397b-3fbd-475e-af68-c5d93cf92b99",
             "Value": {
                 "id": "3d219530-78ea-4f8e-b516-df0727461585",
@@ -111,6 +119,22 @@
             }
         },
         {
+            "Key": "1959080c-b22b-4af0-a78e-78a3eec7943a",
+            "Value": {
+                "id": "fd43ad8b-4caa-4160-bef0-8c8537ddecda",
+                "resourcePath": "sprites\\soldier_body_idle_sp\\soldier_body_idle_sp.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "1d27a366-547b-4f7e-a186-f2826913170e",
+            "Value": {
+                "id": "c501360c-17b0-423f-9be0-0b1e5faa6a45",
+                "resourcePath": "sprites\\soldier_arm_sp\\soldier_arm_sp.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "1db7fd2a-21a8-4864-8962-71cd87f07307",
             "Value": {
                 "id": "51431f21-168c-4369-8ba8-3325ae25bbe5",
@@ -139,6 +163,14 @@
             "Value": {
                 "id": "2cb1b785-8ae1-4952-a4d6-98d09550759b",
                 "resourcePath": "scripts\\battle_player_state\\battle_player_state.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "208e123d-f37b-4b0d-a8e3-6554d4bb69a7",
+            "Value": {
+                "id": "ae22e569-5b56-4591-965d-1cf66fb1c447",
+                "resourcePath": "scripts\\unit_fire\\unit_fire.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -220,6 +252,38 @@
                 "id": "b8442c8c-ec8e-4678-8044-7c4b53bfead3",
                 "resourcePath": "views\\346de303-49cc-4415-b2be-0a9f10f40a4f.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "347f01b8-4b41-4220-9ae8-f9e1c2b35a20",
+            "Value": {
+                "id": "c43eaa23-3787-4a76-b0ca-6cccebf9a2bc",
+                "resourcePath": "views\\347f01b8-4b41-4220-9ae8-f9e1c2b35a20.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "3606486d-7a1a-4545-bac9-88b41629dd88",
+            "Value": {
+                "id": "58be913b-7222-40df-bd40-59fd8998238a",
+                "resourcePath": "sprites\\soldier_rifle_sp\\soldier_rifle_sp.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "3699344a-6927-4f16-8e57-61163a3d5084",
+            "Value": {
+                "id": "d177e857-1d83-46e4-84d4-98804fd46dd2",
+                "resourcePath": "views\\3699344a-6927-4f16-8e57-61163a3d5084.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "3922acee-20d4-4192-8ce8-848e59f074a7",
+            "Value": {
+                "id": "c72fb0b4-c38f-46b3-acca-2731ec7ec96a",
+                "resourcePath": "scripts\\unit_overwatch\\unit_overwatch.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -311,11 +375,43 @@
             }
         },
         {
+            "Key": "7480440c-fa6e-4e54-bfd6-945bf01efeb2",
+            "Value": {
+                "id": "49212c90-e73b-4f5c-ab46-2b78a0751300",
+                "resourcePath": "sprites\\pistol_sp\\pistol_sp.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "7e95d059-c031-4f14-9dd7-116cf11b11d1",
             "Value": {
                 "id": "8896685f-fd10-4e41-ac3c-a6a3d372ee75",
-                "resourcePath": "scripts\\unit_fire\\unit_fire.yy",
+                "resourcePath": "scripts\\unit_fire_state\\unit_fire_state.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "7ee59b0f-a92d-4a2f-a42d-91beb5ebc8d1",
+            "Value": {
+                "id": "5404a5b1-0102-4fb9-881a-5115c771f41b",
+                "resourcePath": "scripts\\unit_idle_state\\unit_idle_state.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "81df2185-7e8a-4429-b9a0-8039e0e21cf0",
+            "Value": {
+                "id": "6f781a50-74c9-491e-9c3d-17245f7fe295",
+                "resourcePath": "sprites\\sprite20\\sprite20.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "82176956-2b59-445a-b256-f6be57d4cb41",
+            "Value": {
+                "id": "b5665480-059d-4ed1-9560-e11b769487b3",
+                "resourcePath": "sprites\\soldier_arm_pistol_sp\\soldier_arm_pistol_sp.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -340,6 +436,14 @@
                 "id": "7b7494e4-2500-409d-817a-0533ff504d3b",
                 "resourcePath": "scripts\\change_sprite\\change_sprite.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "9ada4424-d270-47b4-9c24-cd737151c1b9",
+            "Value": {
+                "id": "7908177d-d61b-48f6-9037-0f98fdd383cf",
+                "resourcePath": "views\\9ada4424-d270-47b4-9c24-cd737151c1b9.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -375,6 +479,30 @@
             }
         },
         {
+            "Key": "b1513777-d2c2-48b2-81f9-13c50c93ae84",
+            "Value": {
+                "id": "a1f9fa73-e1df-486f-9d6d-0a5cf0066622",
+                "resourcePath": "sprites\\soldier_body_idle_sp1\\soldier_body_idle_sp1.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "b47e946c-6be0-4d69-a532-181a4e3f1bb5",
+            "Value": {
+                "id": "d38c2427-2eeb-4c2e-94f5-d784d4196d74",
+                "resourcePath": "scripts\\view_zoom\\view_zoom.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "b66e9439-d7bb-4c49-8603-dc6f46ac0f3c",
+            "Value": {
+                "id": "1b65cb35-6960-4250-8934-0c0429618d39",
+                "resourcePath": "sprites\\flash_sp\\flash_sp.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "c1145432-2b99-4bc7-84b9-41f2a6f9f844",
             "Value": {
                 "id": "4b6a5993-fc12-4817-8b20-20f82b9ef3a2",
@@ -404,6 +532,14 @@
                 "id": "ea5b90ce-6d4e-4d38-9fa5-67a3dea7e198",
                 "resourcePath": "scripts\\animation_hit_frame\\animation_hit_frame.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "c657190a-aa89-48d1-b44b-c19d978272ac",
+            "Value": {
+                "id": "df473074-9c88-42f3-a7b0-27a318523759",
+                "resourcePath": "sprites\\soldier_1_head_sp\\soldier_1_head_sp.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -458,7 +594,7 @@
             "Key": "ce49b5b9-1d4d-422c-aab6-1cda7c52f84f",
             "Value": {
                 "id": "48922bf9-0156-4410-be60-dc47af60b659",
-                "resourcePath": "scripts\\unit_overwatch\\unit_overwatch.yy",
+                "resourcePath": "scripts\\unit_overwatch_state\\unit_overwatch_state.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -567,6 +703,14 @@
             }
         },
         {
+            "Key": "edcc6246-087e-4340-b322-2e9541dad700",
+            "Value": {
+                "id": "febd84d8-a023-403f-907c-2092db3601e6",
+                "resourcePath": "sprites\\soldier_pistol_sp\\soldier_pistol_sp.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "f278a076-9cb0-4db1-be7c-3401c6e68418",
             "Value": {
                 "id": "149a37ff-65e3-4ad8-b7f8-1f6f1684837a",
@@ -621,6 +765,14 @@
                 "resourcePath": "views\\fb936970-9e23-4131-853d-4a6aeaed499c.yy",
                 "resourceType": "GMFolder"
             }
+        },
+        {
+            "Key": "fd6907a1-fbb4-405d-89e3-3d89c217790e",
+            "Value": {
+                "id": "0400ac05-42bf-4689-8fc0-6f30924247da",
+                "resourcePath": "sprites\\soldier_head_sp\\soldier_head_sp.yy",
+                "resourceType": "GMSprite"
+            }
         }
     ],
     "script_order": [
@@ -636,10 +788,14 @@
         "e3b940eb-32a5-4d7e-8470-ebd2b2735f80",
         "269f630c-bdb2-478d-a4ea-9d2d2e7775af",
         "ce9b9487-d1b9-4ffa-9811-eb803b94ecb2",
+        "b47e946c-6be0-4d69-a532-181a4e3f1bb5",
         "888c325c-ce87-491c-9fa2-958c3fcfd3d0",
+        "d41eca89-63ad-4a33-a444-ca1969e842da",
+        "208e123d-f37b-4b0d-a8e3-6554d4bb69a7",
+        "3922acee-20d4-4192-8ce8-848e59f074a7",
         "7e95d059-c031-4f14-9dd7-116cf11b11d1",
         "ce49b5b9-1d4d-422c-aab6-1cda7c52f84f",
-        "d41eca89-63ad-4a33-a444-ca1969e842da",
+        "7ee59b0f-a92d-4a2f-a42d-91beb5ebc8d1",
         "6f79888b-a030-4457-84cc-8cff15f914d9",
         "5457f0f6-c768-4274-ae13-32df2a5c619a",
         "1f1ec564-06c1-478c-bbf1-ad21a554d099",

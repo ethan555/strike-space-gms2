@@ -5,6 +5,10 @@ var left = input.left;
 var right = input.right;
 var up = input.up;
 var down = input.down;
+
+var mouse_scroll_down = input.mouse_scroll_down;
+var mouse_scroll_up = input.mouse_scroll_up;
+
 if (left || right) {
     if (!(left && right)) {
         if (left) {
@@ -44,3 +48,14 @@ if (wy <= window_get_y()) {
     target[? "y"] = target[? "y"] + MAXCURSORSPD;
 }
 
+// Scroll support
+if (mouse_scroll_up || mouse_scroll_down) {
+    if (mouse_scroll_up && zoom > ZOOM_IN) { // Zoom in
+        zoom = clamp(zoom - ZOOM_SPD,ZOOM_IN,zoom);
+    } else if (mouse_scroll_down && zoom < ZOOM_OUT) { // Zoom out
+        zoom = clamp(zoom + ZOOM_SPD,zoom,ZOOM_OUT);
+    }
+    //view_zoom(zoom);
+    lw = standard_width * zoom;
+    lh = standard_height * zoom;
+}

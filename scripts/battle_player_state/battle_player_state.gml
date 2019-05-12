@@ -8,6 +8,9 @@ var reload = input.reload;
 var backspace = input.backspace;
 var shift = input.shift;
 
+var mouse_scroll_up = input.mouse_scroll_up;
+var mouse_scroll_down = input.mouse_scroll_down;
+
 if (!instance_exists(focus)) {
     var loopback = focus;
     unit_index = modulo(unit_index + 1, ds_list_size(player_list));

@@ -1,5 +1,5 @@
 {
-    "id": "7e95d059-c031-4f14-9dd7-116cf11b11d1",
+    "id": "208e123d-f37b-4b0d-a8e3-6554d4bb69a7",
     "modelName": "GMScript",
     "mvc": "1.0",
     "name": "unit_fire",
