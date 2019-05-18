@@ -455,6 +455,14 @@
             }
         },
         {
+            "Key": "a1135f54-fd31-4d60-8b52-c89c8d72f8b9",
+            "Value": {
+                "id": "55b2b346-e6cf-4b8e-9c80-21d6fe118f8c",
+                "resourcePath": "scripts\\unit_look_at\\unit_look_at.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "a29e15f8-c38f-40e6-8334-70e447637114",
             "Value": {
                 "id": "637a125e-4a5b-422e-a8c4-4b046dee178c",
@@ -475,6 +483,14 @@
             "Value": {
                 "id": "4d81f4b1-d22a-4421-8be5-85d26e1dd811",
                 "resourcePath": "scripts\\animation_end\\animation_end.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "ad557489-5d41-4015-be6e-d5cca2b99072",
+            "Value": {
+                "id": "9355aaf3-b47e-4ffc-8cf2-bc12ca81c1b4",
+                "resourcePath": "scripts\\battle_player_aim_state\\battle_player_aim_state.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -793,12 +809,14 @@
         "d41eca89-63ad-4a33-a444-ca1969e842da",
         "208e123d-f37b-4b0d-a8e3-6554d4bb69a7",
         "3922acee-20d4-4192-8ce8-848e59f074a7",
+        "a1135f54-fd31-4d60-8b52-c89c8d72f8b9",
         "7e95d059-c031-4f14-9dd7-116cf11b11d1",
         "ce49b5b9-1d4d-422c-aab6-1cda7c52f84f",
         "7ee59b0f-a92d-4a2f-a42d-91beb5ebc8d1",
         "6f79888b-a030-4457-84cc-8cff15f914d9",
         "5457f0f6-c768-4274-ae13-32df2a5c619a",
         "1f1ec564-06c1-478c-bbf1-ad21a554d099",
+        "ad557489-5d41-4015-be6e-d5cca2b99072",
         "28526cb0-2e42-48c0-85dd-39341947c3cc",
         "f82aa41e-ad50-4ecd-a047-61a0e447e9f3",
         "a29e15f8-c38f-40e6-8334-70e447637114"

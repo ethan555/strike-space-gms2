@@ -14,6 +14,9 @@ quickbar[i++] = unit_overwatch;
 quickbar[i++] = unit_end_turn;
 quickbar_length = array_length_1d(quickbar);
 
+target_index = 0;
+targets = ds_list_create();
+
 facing = 1;
 angle = 0;
 

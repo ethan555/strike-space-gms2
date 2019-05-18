@@ -7,8 +7,10 @@
 #macro RIFLE 0
 #macro PISTOL 1
 
-#macro ARM_X_OFFSET -7
-#macro ARM_Y_OFFSET -8
+#macro ARM_X_OFFSET -6
+#macro ARM_Y_OFFSET -7
+
+#macro HEAD_Y_OFFSET -12
 
 #macro ZOOM_IN .5
 #macro ZOOM_OUT 2

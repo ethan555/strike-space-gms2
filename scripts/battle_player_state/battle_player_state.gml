@@ -8,8 +8,7 @@ var reload = input.reload;
 var backspace = input.backspace;
 var shift = input.shift;
 
-var mouse_scroll_up = input.mouse_scroll_up;
-var mouse_scroll_down = input.mouse_scroll_down;
+var mouse_left_pressed = input.mouse_left_pressed;
 
 if (!instance_exists(focus)) {
     var loopback = focus;
@@ -64,7 +63,9 @@ if (backspace) {
 for (var i = 0, length = array_length_1d(quickbar); i < length; i ++) {
     // If one of the numbers was pressed, execute the quickbar action for that unit
     if (i < focus.quickbar_length && quickbar[i]) {
-        
+        if (i == 0) {
+            state = battle_player_aim_state;
+        }
         break;
     }
 }
