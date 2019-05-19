@@ -25,14 +25,12 @@ if (tab) {
 // Go back to regular state
 if (backspace) {
     state = battle_player_state;
+    focus.draw_arc = false;
 }
 
 // If holding the mouse, then follow mouse
 if (mouse_right) {
-    focus.draw_arc = true;
     unit_look_at(focus, mouse_x, mouse_y);
-} else {
-    focus.draw_arc = false;
 }
 // Quickbar support
 /*for (var i = 0, length = array_length_1d(quickbar); i < length; i ++) {

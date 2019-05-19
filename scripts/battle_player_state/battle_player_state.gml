@@ -65,6 +65,7 @@ for (var i = 0, length = array_length_1d(quickbar); i < length; i ++) {
     if (i < focus.quickbar_length && quickbar[i]) {
         if (i == 0) {
             state = battle_player_aim_state;
+            focus.draw_arc = true;
         }
         break;
     }
