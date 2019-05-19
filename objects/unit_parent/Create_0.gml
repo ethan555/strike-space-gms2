@@ -30,5 +30,6 @@ arms = soldier_arm_sp;
 arms_index = 0;
 
 weapon_sprite = pistol_sp;
+draw_arc = false;
 
 gone = true;

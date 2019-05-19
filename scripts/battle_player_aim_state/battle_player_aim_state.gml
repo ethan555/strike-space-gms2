@@ -29,7 +29,10 @@ if (backspace) {
 
 // If holding the mouse, then follow mouse
 if (mouse_right) {
-   unit_look_at(focus, mouse_x, mouse_y);
+    focus.draw_arc = true;
+    unit_look_at(focus, mouse_x, mouse_y);
+} else {
+    focus.draw_arc = false;
 }
 // Quickbar support
 /*for (var i = 0, length = array_length_1d(quickbar); i < length; i ++) {

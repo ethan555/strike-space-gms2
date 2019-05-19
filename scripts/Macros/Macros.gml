@@ -9,6 +9,7 @@
 
 #macro ARM_X_OFFSET -6
 #macro ARM_Y_OFFSET -7
+#macro WEAPON_OFFSET 16
 
 #macro HEAD_Y_OFFSET -12
 
