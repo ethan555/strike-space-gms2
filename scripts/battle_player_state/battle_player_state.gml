@@ -19,6 +19,7 @@ if (!instance_exists(focus)) {
         unit_index = modulo(unit_index + 1, ds_list_size(player_list));
         focus = instance_find(player_parent, unit_index);
     }
+    populate_target_list();
 }
 
 // Jump to the next unit in the player list
@@ -32,6 +33,7 @@ if (tab) {
         focus = instance_find(player_parent, unit_index);
     }
     view_jump(focus.x,focus.y);
+    populate_target_list();
 }
 
 // End the unit's turn
@@ -66,6 +68,11 @@ for (var i = 0, length = array_length_1d(quickbar); i < length; i ++) {
         if (i == 0) {
             state = battle_player_aim_state;
             focus.draw_arc = true;
+            if (ds_list_size(target_list) > 0) {
+                var t = target_list[| target_index];
+                view_jump(t.x,t.y);
+                unit_look_at(focus, t.x, t.y);
+            }
         }
         break;
     }

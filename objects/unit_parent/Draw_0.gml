@@ -4,8 +4,6 @@ var xval = facing*image_xscale;
 // Draw body first
 draw_sprite_ext(sprite[s_index],image_index,x,y,xval,image_yscale,image_angle,image_blend,image_alpha);
 
-angle = round(angle);
-
 var head_index = 0;
 if (abs(angle_difference(angle,0)) < 20 || abs(angle_difference(angle,180)) < 20) { // Forward
     head_index = 7;
@@ -35,7 +33,7 @@ if (draw_arc) {
     draw_primitive_end();
 }
 
-var a = angle;
+var a = round(angle);
 // Draw weapon
 if (facing < 0) {a = angle-180;}
 draw_sprite_ext(weapon_sprite,weapon_sprite_index,x+ARM_X_OFFSET*xval,y+ARM_Y_OFFSET,

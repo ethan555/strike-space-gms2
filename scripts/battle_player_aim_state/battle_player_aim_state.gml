@@ -12,9 +12,9 @@ var mouse_right = input.mouse_right;
 
 // Jump to the next target that this unit can see
 if (tab) {
-    if (ds_list_size(focus.targets) > 0) {
-        focus.target_index = modulo(focus.target_index + 1, ds_list_size(focus.targets));
-        var t = focus.targets[| focus.target_index];
+    if (ds_list_size(target_list) > 0) {
+        target_index = modulo(target_index + 1, ds_list_size(target_list));
+        var t = target_list[| target_index];
         view_jump(t.x,t.y);
         unit_look_at(focus, t.x, t.y);
     } else {

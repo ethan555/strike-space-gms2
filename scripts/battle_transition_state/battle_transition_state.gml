@@ -9,6 +9,7 @@ switch(battle_index) {
         state = battle_player_state;
         focus = player_list[| 0];
         view_jump(focus.x,focus.y);
+        populate_target_list();
         break;
     case 1: // Enemy
         state = battle_enemy_state; break;

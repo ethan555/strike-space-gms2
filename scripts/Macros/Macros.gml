@@ -4,6 +4,12 @@
 
 #macro FONT_CHARS "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890.,!?'-+/:"
 
+#macro VIEW_STANDARD_WIDTH 1024
+#macro VIEW_STANDARD_HEIGHT 768
+#macro VISIBLE_RANGE 1000
+
+#macro GUI_TARGET_DX 32
+
 #macro RIFLE 0
 #macro PISTOL 1
 

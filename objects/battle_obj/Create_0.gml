@@ -10,6 +10,10 @@ populate_enemy_list();
 show_debug_message("populating player list and spawning units");
 spawn_players();
 
+target_index = 0;
+target_list = ds_list_create();
+visible_list = ds_list_create();
+
 // The control state of the battle
 state = battle_transition_state;
 if (instance_exists(view_obj)) {
