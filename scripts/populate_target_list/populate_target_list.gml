@@ -20,3 +20,4 @@ for (var i = 0; i < instance_number(enemy_parent); i ++) {
         }
     }
 }
+target_index = 0;

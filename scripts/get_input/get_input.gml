@@ -13,6 +13,7 @@ tab = keyboard_check_pressed(t);
 reload = keyboard_check_pressed(re);
 backspace = keyboard_check_pressed(bs);
 shift = keyboard_check(s);
+enter = keyboard_check(e);
 
 mouse_left = mouse_check_button(m_l);
 mouse_left_pressed = mouse_check_button_pressed(m_l);

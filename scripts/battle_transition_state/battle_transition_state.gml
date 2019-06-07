@@ -4,6 +4,7 @@
 battle_index = modulo(battle_index + 1, 2);
 // Make everyone who is in the next turn be able to go again
 reset_turn(battle_index);
+play = true;
 switch(battle_index) {
     case 0: // Player
         state = battle_player_state;

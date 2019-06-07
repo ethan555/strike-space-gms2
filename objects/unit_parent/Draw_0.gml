@@ -36,8 +36,9 @@ if (draw_arc) {
 var a = round(angle);
 // Draw weapon
 if (facing < 0) {a = angle-180;}
-draw_sprite_ext(weapon_sprite,weapon_sprite_index,x+ARM_X_OFFSET*xval,y+ARM_Y_OFFSET,
+draw_sprite_ext(weapon_sprite[weapon_index],weapon_image_index,x+ARM_X_OFFSET*xval,y+ARM_Y_OFFSET,
     xval,image_yscale,a,image_blend,image_alpha);
+weapon_image_index = modulo(weapon_image_index + weapon_image_speed, weapon_image_number);
 
 // Draw arms last
 draw_sprite_ext(arms,arms_index,x+ARM_X_OFFSET*xval,y+ARM_Y_OFFSET,

@@ -20,6 +20,8 @@ if (instance_exists(view_obj)) {
     view_obj.state = view_cursor_state;
 }
 
+play = true;
+
 zoom = 1;
 
 /*

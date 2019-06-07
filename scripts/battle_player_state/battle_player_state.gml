@@ -11,28 +11,13 @@ var shift = input.shift;
 var mouse_left_pressed = input.mouse_left_pressed;
 
 if (!instance_exists(focus)) {
-    var loopback = focus;
-    unit_index = modulo(unit_index + 1, ds_list_size(player_list));
-    focus = instance_find(player_parent, unit_index);
-    // Skip over units who have already gone
-    while (focus.gone && focus != loopback) {
-        unit_index = modulo(unit_index + 1, ds_list_size(player_list));
-        focus = instance_find(player_parent, unit_index);
-    }
+    switch_focus();
     populate_target_list();
 }
 
 // Jump to the next unit in the player list
 if (tab) {
-    var loopback = focus;
-    unit_index = modulo(unit_index + 1, ds_list_size(player_list));
-    focus = instance_find(player_parent, unit_index);
-    // Skip over units who have already gone
-    while (focus.gone && focus != loopback) {
-        unit_index = modulo(unit_index + 1, ds_list_size(player_list));
-        focus = instance_find(player_parent, unit_index);
-    }
-    view_jump(focus.x,focus.y);
+    switch_focus();
     populate_target_list();
 }
 
@@ -45,26 +30,14 @@ if (backspace) {
     } else {
         // End only the unit's turn
         focus.gone = true;
-        var loopfocus = focus;
-        // Jump to the next unit who hasn't gone
-        while (focus.gone) {
-            unit_index = modulo(unit_index + 1, ds_list_size(player_list));
-            focus = instance_find(player_parent, unit_index);
-            // Check if there are no units left
-            if (focus == loopfocus) {
-                // If there are no units remaining to go, then go to the next state
-                state = battle_transition_state;
-                return;
-            }
-        }
-        view_jump(focus.x,focus.y);
+        switch_focus();
     }
 }
 
 // Quickbar support
 for (var i = 0, length = array_length_1d(quickbar); i < length; i ++) {
     // If one of the numbers was pressed, execute the quickbar action for that unit
-    if (i < focus.quickbar_length && quickbar[i]) {
+    if (/*i < focus.quickbar_length && */quickbar[i]) {
         if (i == 0) {
             state = battle_player_aim_state;
             focus.draw_arc = true;

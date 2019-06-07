@@ -11,7 +11,8 @@ weapon_stats = json_decode(@'
         "semiauto" : 3,
         "auto" : 6,
         "spread" : 5,
-        "range" : 500
+        "range" : 500,
+        "sprite" : "rifle_sp"
     },
     
     "pistol" : {
@@ -21,7 +22,8 @@ weapon_stats = json_decode(@'
         "semiauto" : 1,
         "auto" : 3,
         "spread" : 5,
-        "range" : 450
+        "range" : 450,
+        "sprite" : "pistol_sp"
     },
     
     "last" : {
@@ -29,3 +31,5 @@ weapon_stats = json_decode(@'
     }
 }
 ');
+
+show_debug_message(string(weapon_stats));

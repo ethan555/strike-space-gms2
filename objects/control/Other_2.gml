@@ -1,4 +1,7 @@
 /// @description Initialize the cursor
+window_set_size(VIEW_STANDARD_WIDTH,VIEW_STANDARD_HEIGHT);
+surface_resize(application_surface,VIEW_STANDARD_WIDTH,VIEW_STANDARD_HEIGHT);
+
 cursor_sprite = cursor_sp;
 window_set_cursor(cr_none);
 if (!instance_exists(weapon_stats_obj)) {
@@ -12,3 +15,5 @@ player_list = ds_list_create();
 ds_list_add(player_list,"alpha","alpha","alpha");
 enemy_list = ds_list_create();
 unit_list = ds_list_create();
+
+room_goto_next();

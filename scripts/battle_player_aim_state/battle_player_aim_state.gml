@@ -7,6 +7,7 @@ var tab = input.tab;
 var reload = input.reload;
 var backspace = input.backspace;
 var shift = input.shift;
+var enter = input.enter;
 
 var mouse_right = input.mouse_right;
 
@@ -32,13 +33,21 @@ if (backspace) {
 if (mouse_right) {
     unit_look_at(focus, mouse_x, mouse_y);
 }
+
+// Fire
+if (enter || quickbar[0]) {
+    unit_fire(focus);
+    state = battle_player_state;
+    play = false;
+}
+
 // Quickbar support
 /*for (var i = 0, length = array_length_1d(quickbar); i < length; i ++) {
     // If one of the numbers was pressed, execute the quickbar action for that unit
-    if (i < focus.quickbar_length && quickbar[i]) {
+    //if (i < focus.quickbar_length && quickbar[i]) {
         if (i == 0) {
             
         }
         break;
-    }
+    //}
 }

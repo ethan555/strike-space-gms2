@@ -2,3 +2,7 @@
 
 // End turn
 gone = true;
+with (battle_obj) {
+    play = true;
+    switch_focus();
+}

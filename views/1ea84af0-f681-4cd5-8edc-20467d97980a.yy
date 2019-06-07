@@ -12,7 +12,9 @@
         "1f1ec564-06c1-478c-bbf1-ad21a554d099",
         "ad557489-5d41-4015-be6e-d5cca2b99072",
         "28526cb0-2e42-48c0-85dd-39341947c3cc",
-        "f82aa41e-ad50-4ecd-a047-61a0e447e9f3"
+        "cd7da53c-f0f0-42ad-8f68-e35dff34513a",
+        "f82aa41e-ad50-4ecd-a047-61a0e447e9f3",
+        "d933f130-417a-495c-9335-899ca46a78ca"
     ],
     "filterType": "GMScript",
     "folderName": "Battle Scripts",

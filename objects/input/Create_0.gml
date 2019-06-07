@@ -25,6 +25,7 @@ t = vk_tab;
 re = ord("R");
 bs = vk_backspace;
 s = vk_shift;
+e = vk_enter;
 
 m_l = mb_left;
 m_r = mb_right;
